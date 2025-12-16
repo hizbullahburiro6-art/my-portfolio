@@ -103,3 +103,39 @@
     margin: 1.1rem 0 3rem 0 ;
     line-height: 1.8rem;
 }
+
+.btn-container button{
+    border: .1rem solid #3877ff;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button:nth-child(1){
+    background-color: #5DB9EE;
+    color: #262525;
+}
+
+button:nth-child(2){
+    background-color: transparent;
+    color: #5DB9EE;
+    margin: 2rem;
+}
+
+button:nth-child(1):hover{
+    background-color: transparent;
+    color: #5DB9EE;
+}
+
+button:nth-child(2):hover{
+    background-color: #5DB9EE;
+    color: #262525;
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background:linear-gradient(#fff, #3877ff);
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
